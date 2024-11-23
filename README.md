@@ -21,3 +21,14 @@ cd PythonWithAshu
 You can run any Python file by using the following command:
 
 python <filename>.py
+
+
+
+## Contributing
+
+Feel free to fork the repository, make changes, and submit a pull request if you wish to contribute. I'm always looking to improve and learn new techniques.
+
+## License
+
+This repository is open-source and available.
+

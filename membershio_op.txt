@@ -1,0 +1,2 @@
+s='ashu'
+print('a' in s)

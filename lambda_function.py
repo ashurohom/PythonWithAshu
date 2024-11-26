@@ -35,3 +35,6 @@ print(grater(10,20,15))
 g = lambda a,b,c:a if a>b and a>c  else  b  if b>c else c
 print(g(5,7,3))
 
+
+a=100
+b=200

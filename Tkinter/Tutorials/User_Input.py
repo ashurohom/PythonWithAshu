@@ -12,7 +12,7 @@ def getval():
 
 
 #heading
-Label(window, text="WelCome To Sai Park",font="comicsansms 13 bold",padx=50).grid(row=0,column=3)
+Label(window, text="WelCome To Ashu's Work Area",font="comicsansms 13 bold",padx=50).grid(row=0,column=3)
 
 
 #Lable for forms

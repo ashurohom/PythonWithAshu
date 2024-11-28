@@ -1,4 +1,9 @@
 ('Ashu', '9527230560', 'Male', 'Card', 1)
 ('Tejas', '123456798', 'Male', 'Cash', 0)
 ('Rani', '4598723', 'Female', 'PhonePay', 1)
+('SAI', '24542151', 'Male', 'Cash', 1)
+('krishna', '12536', 'male', 'card', 1)
 
+
+('krishna jamdade', '123456789', 'male', 'cash', 1)
+('ashu rohom', '4571472', 'male', 'card', 0)

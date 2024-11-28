@@ -1,0 +1,4 @@
+('Ashu', '9527230560', 'Male', 'Card', 1)
+('Tejas', '123456798', 'Male', 'Cash', 0)
+('Rani', '4598723', 'Female', 'PhonePay', 1)
+

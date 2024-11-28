@@ -11,14 +11,15 @@ can_widget = Canvas(window, width=canvas_width, height=canvas_height)
 can_widget.pack()
 
 #the line goes from the point x1,y1, to x2,y2
-can_widget.create_line(0,0,800,40, fill="blue")
+can_widget.create_line(0,0,800,400, fill="blue")
 can_widget.create_line(0,400,800,0)
 can_widget.create_line(0,0,500,10)
 
 #to create rectangle
 can_widget.create_rectangle(3, 5, 700, 300, fill="skyblue")
 
-
+#add text
+can_widget.create_text(200, 200, text="Python")
 
 
 

@@ -22,11 +22,11 @@ class Employee:
         self.salary=salary
 
     def Display_Details(self):
-        print(f'Name : {self.name}, ID : {self.id}, Salary : {self.salary}')
+        print(f'Name : {self.name}, ID : {self.id}, Salary : ₹{self.salary}')
 
     def update_salary(self,new_salary):
         self.salary=new_salary
-        print(f'Salary Updated : {self.salary}')
+        print(f'Salary Updated : ₹{self.salary}')
 
 Emp = Employee("Ashu",1234,52411)
 Emp.Display_Details()

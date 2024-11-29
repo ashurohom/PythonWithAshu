@@ -7,3 +7,7 @@
 
 ('krishna jamdade', '123456789', 'male', 'cash', 1)
 ('ashu rohom', '4571472', 'male', 'card', 0)
+
+('ashu', '562222', 'male', 'cash', 1)
+('Sahil', '57881', 'Male', 'cash', 1)
+('asd', '554455', 'male', 'asa', 1)

@@ -11,6 +11,7 @@ def getval():
         f.write(f'{namevalue.get(), phonevalue.get(), gendervalue.get(), paymentmodevalue.get(), servicevalue.get()}\n')
 
 
+
 #heading
 Label(window, text="WelCome To Ashu's Work Area",font="comicsansms 13 bold",padx=50).grid(row=0,column=3)
 

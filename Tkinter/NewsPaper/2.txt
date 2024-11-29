@@ -1,0 +1,3 @@
+Exploring Python’s advanced topics like generators and decorators enhances problem-solving skills. 
+These features streamline code, making it more efficient and reusable. Mastery of such concepts defines a proficient Python developer.
+

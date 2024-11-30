@@ -26,8 +26,6 @@ def rate():
 
     tmsg.showinfo("Exp",msg)     
 
-
-
 #menubar with list
 
 menubar = Menu(window)

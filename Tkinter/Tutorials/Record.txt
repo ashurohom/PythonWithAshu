@@ -11,3 +11,4 @@
 ('ashu', '562222', 'male', 'cash', 1)
 ('Sahil', '57881', 'Male', 'cash', 1)
 ('asd', '554455', 'male', 'asa', 1)
+('Atharv', '547155', 'Male', 'Card', 1)

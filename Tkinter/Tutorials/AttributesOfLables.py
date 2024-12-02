@@ -8,7 +8,7 @@ window.title("Ashitosh Rohom")
 # imp lable option
 '''
 text : add text
-bd : background
+bg : background
 fg : foreground
 font : set font
 1) font=("comicsansms", 10, "bold")

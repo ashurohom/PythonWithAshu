@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.geometry("666x444")
-window.title("CodeCraftedByAshu - Even-Odd Analyzer")
+window.title("CodeCraftedByAshuRohom - Even-Odd Analyzer")
 
 def checkval():
     try:

@@ -5,16 +5,7 @@ window.geometry("666x444")
 window.title("CodeCraftedByAshu - TextAnalyzer")
 
 def checkval():
-    try:
-        number = int(ValueEntry.get())  # Get the value as an integer
-        ValueAnswer.delete(0, END)  # Clear previous value in the display field
-        if number % 2 == 0:
-            ValueAnswer.insert(0, "Even Number")
-        else:
-            ValueAnswer.insert(0, "Odd Number")
-    except ValueError:
-        ValueAnswer.delete(0, END)
-        ValueAnswer.insert(0, "Invalid Input")
+   print("hello")
 
 # Frame f1 (title section)
 f1 = Frame(window)

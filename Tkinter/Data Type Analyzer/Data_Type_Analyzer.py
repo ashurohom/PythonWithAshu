@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.geometry("666x444")
-window.title("CodeCraftedByAshu - Data Type Analyzer")
+window.title("CodeCraftedByAshuRohom - Data Type Analyzer")
 
 def checkval():
     input_value = ValueEntry.get()  

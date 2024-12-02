@@ -41,13 +41,13 @@ ValueEntry.grid(row=0, column=1, padx=10)  # Position the entry field in the sec
 AnswerLable = Label(f2, text="Answer : ", font="comicsansms 10 bold")
 AnswerLable.grid(row=1, column=0, padx=10)
 
-# Entry to display the result
+# display result section
 ValueAnswer = Entry(f2)
 ValueAnswer.grid(row=1, column=1, columnspan=2, pady=10)
 
 
 
-# Button to check
+# Button to check result
 b1 = Button(f2, text="Check", command=checkval, bg="Black", fg="White",font="comicsansms 10 bold", border=2, relief=RIDGE)
 b1.grid(row=2, column=0, pady=10)
 

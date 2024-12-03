@@ -1,3 +1,4 @@
+
 menu={
     "Vadapav" : 20, 
     "Samosa" : 25,
@@ -30,6 +31,6 @@ if newitem == "Yes":
         print(f'item {order2} not avaliable, please order else')        
 
 else:
-    print(f"Your Bill Is {price}")
+    print(f"Thank You !")
 
 print(f'Bill : {price}')    

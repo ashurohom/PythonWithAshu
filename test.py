@@ -1,10 +1,17 @@
-def summ(num):
-    if num < 10:
-        return num
-    else:
-        return num%10 + summ(num//10)
+class A:
+    College = "Sanjivani"
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
 
-print(summ(12345))
+    def display(self):
+        print(f'{self.name} , {self.rollno}, {A.College}')
 
-x = lambda a:a*a
-print(x(2))
+    @classmethod
+    def CName(cls):
+        print(f'Clg : {cls.College}')    
+
+obj = A("Ashu",111)
+obj.display()            
+obj.CName()        
+        

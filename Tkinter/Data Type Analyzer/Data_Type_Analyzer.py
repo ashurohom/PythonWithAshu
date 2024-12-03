@@ -35,7 +35,7 @@ l2.grid(row=1, column=0)
 f2 = Frame(window)
 f2.grid(row=1, column=0, columnspan=3, pady=20)
 
-Note = Label(f2, text="Number String Boolean Symbol Alphanumeric", font="comicsansms 10 bold", fg="yellow")
+Note = Label(f2, text="Number String Boolean Symbol Alphanumeric", font="comicsansms 10 bold", fg="green")
 Note.grid(row=0, column=1, padx=10, pady=5)
 
 UserInput = Label(f2, text="Enter Value : ", font="comicsansms 10 bold", fg="Black")

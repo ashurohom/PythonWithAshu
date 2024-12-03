@@ -1,3 +1,5 @@
+#single Inheritance
+
 class A:
     def hello(self):
         print("First Class Hello")

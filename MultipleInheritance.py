@@ -1,3 +1,5 @@
+#Multiple INHERITANCE
+
 class A:
     def aee(self):
         print("Class A")

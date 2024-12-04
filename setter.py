@@ -1,3 +1,5 @@
+#Getter And Setter
+
 class Public:
     def __init__(self,name):
         self.name=name

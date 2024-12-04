@@ -1,35 +1,32 @@
-menu={
-    "Vadapav" : 20, 
-    "Samosa" : 25,
-    "Misal" : 70,
-    "PaniPuri" : 30,
-    "ColdDrink" : 10,
+menu = {
+    "Vadapav": 20, 
+    "Samosa": 25,
+    "Misal": 70,
+    "PaniPuri": 30,
+    "ColdDrink": 10,
 }
 
-print("WelCOme To Nasta Center\n")
-print("Vadapav : 20\n Samosa : 25\n Misal : 70\n PaniPuri : 30\n ColdDrink : 10\n")
+print("Welcome to Nasta Center\n")
+print("Menu:")
+for item, price in menu.items():
+    print(f"{item} : {price} INR")
 
-price = 0
+total_price = 0
 
-order1 = input("Enter Your Order : ")
-
-if order1 in menu:
-    price+=menu[order1]
-    print(f'Your Item {order1} Has been Added to order list..')
-else:
-    print(f'item {order1} not avaliable, please order else')
-
-newitem = input("DO You Wantt to add another item ? Yes/No ")
-
-if newitem == "Yes":
-    order2 = input("Enter Your 2nd Order : ")
-    if order2 in menu:
-        price+=menu[order2]
-        print(f'Your Item {order2} Has been Added to order list..')
+while True:
+    order = input("\nEnter Your Order: ").strip()
+    
+    if order in menu:
+        total_price += menu[order]
+        print(f'Your item "{order}" has been added to the order list.')
     else:
-        print(f'item {order2} not avaliable, please order else')        
+        print(f'Sorry, item "{order}" is not available. Please order something else.')
 
-else:
-    print(f"Your Bill Is {price}")
+    new_item = input("Do you want to add another item? (Yes/No): ").strip().lower()
+    if new_item == "no":
+        break
+    elif new_item != "yes":
+        print("Invalid input. Assuming you don't want to add more items.")
+        break
 
-print(f'Bill : {price}')    
+print(f"\nThank you for your order! Your total bill is: {total_price} INR")

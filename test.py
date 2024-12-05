@@ -17,8 +17,11 @@ while True:
     order = input("\nEnter Your Order: ").strip()
     
     if order in menu:
-        total_price += menu[order]
+        quantity = int(input(f"Enter {order} Quantity : "))
+        total = menu[order] * quantity
+        total_price += total
         print(f'Your item "{order}" has been added to the order list.')
+
     else:
         print(f'Sorry, item "{order}" is not available. Please order something else.')
 

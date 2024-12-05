@@ -14,6 +14,9 @@ class A:
     def show(cls):
         print(f'Class Method : {cls.bike}')
 
+    def __del__(self):
+        print("Destructor Call")    
+
 obj = A("Ashu",24)
 obj.name="Rani"
 # del obj.name
@@ -21,3 +24,6 @@ obj.age=22
 obj.display()
 obj.show()
 print(f'Class Variable : {A.bike}')
+
+del obj
+print(f'Object Deleted..')

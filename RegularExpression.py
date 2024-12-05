@@ -45,8 +45,43 @@ match = re.search(r'Ashu',s)
 print(f'Start Index : {match.start()}')
 print(f'End Index : {match.end()}')
 
-print()
+print("---------------------------------")
 
 result = re.findall('[a-d]', s)
 print(result)
+matcher = re.finditer('a','ababababa')
+for i in matcher:
+    print(i.start(),i.end(),i.group())
 
+print("---------------------------------")
+
+# match
+mx = re.match('As',"Ashitosh")
+print(mx.start(),mx.end(),mx.group())
+
+print("---------------------------------")
+
+#fullmatch
+
+# st = "Python Programmin"
+# a = re.fullmatch(st)
+
+# WAP to check mobile number is valid or not
+
+num = "9834675888"
+matchs = re.fullmatch('[6-9][0-9]{9}',num)
+if matchs != None:
+    print("Valid")
+else:
+    print("Invalid")    
+
+
+print("-------------------------------")
+#WAP to check vehical number is valid or not
+
+number = "MH17CC9015"
+mch = re.fullmatch('[MH]{2}[0-5][0-9][A-Z]{1,2}[0-9]{4}',number)
+if mch != None:
+    print("Valid")
+else:
+    print("In Valid")    

@@ -1,8 +1,6 @@
 import os
 # print(os.listdir())
 # print(os.path.isfile('myquotes'))
-
-
 def addQuote(myfile):
     if not os.path.exists(myfile):
         with open(myfile,'w') as file:
@@ -32,12 +30,14 @@ myfile = input("Enter Your Quotes File Name i.e=''myquotes : ")
 
 if os.path.exists(myfile):
 
-    print("\n--- Quote Management System ---")
-    print("1. Add New Quote")
-    print("2. View All Quotes")
-    print("3. Search Quotes")
-    print("4. Delete a Quote")
-    print("5. Exit")
+    while True:
+
+        print("\n--- Quote Management System ---")
+        print("1. Add New Quote")
+        print("2. View All Quotes")
+        print("3. Search Quotes")
+        print("4. Delete a Quote")
+        print("5. Exit")
 
 
     choice = int(input("Enter Your Choice : "))
@@ -54,10 +54,10 @@ if os.path.exists(myfile):
         print("File Not Found")
 else:
     print(f'File {myfile} Not Exists! Do You Want To Create New File With Same File Name...')
-    answer = input("Enter Yes Or No : ")
+    answer = input("Enter Yes Or No : ").strip().capitalize()
 
-    if answer == 'Yes' or 'yes':
+    if answer == 'Yes': 
         addQuote(myfile)
-    elif answer == 'No' or 'no':
+    elif answer == 'No':
         print("Thank You !")    
     

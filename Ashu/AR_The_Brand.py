@@ -6,6 +6,7 @@ print("Cloths")
 print("DryFruits")
 print("Watches")
 print("Bags")
+print("Shoes")
 print("Exit\n")
 
 total_bill = 0

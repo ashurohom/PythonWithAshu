@@ -1,3 +1,5 @@
+#print number using character
+
 dict = {
     'zero'  : 0,
     'one'  : 1,

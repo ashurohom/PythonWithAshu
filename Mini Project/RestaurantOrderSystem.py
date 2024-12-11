@@ -9,7 +9,7 @@ menu = {
     "Colddrink" : 20,
 }
 
-print("* Welcome To ABC Restaurant Order System *\n")
+print("* Welcome To Krishna Restaurant Order System *\n")
 print("MenuCard:")
 print('----------------')
 for item, price in menu.items():

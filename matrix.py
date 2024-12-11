@@ -3,7 +3,7 @@ column = int(input("Enter No Of Column : "))
 
 matrix = []
 
-print("Enter Input : ")
+print("Enter Number Row Wise : ")
 for i in range(row):
 
     a = []

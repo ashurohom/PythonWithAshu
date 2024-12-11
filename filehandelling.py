@@ -18,3 +18,18 @@ l = ["\nBatch : P432","\nAddress : FC Road Pune"]
 with open('newnotes.txt','a+') as file:
     print("File Added..")
     file.writelines(l)
+
+
+with open('newnotes.txt','a+') as files:
+    files.write('\nDjango Started..')
+    
+with open('newnotes.txt','r+') as files:
+    print(files.read())    
+
+import os
+# os.remove('tejas.txt')    
+
+print(f'Directory : {os.getcwd()}')
+
+os.mkdir('newfolder')
+# os.path.join('C:\Users\R_Ashu\OneDrive\Documents\VSCode\Python\Ashu')

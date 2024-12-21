@@ -9,6 +9,8 @@
 # c = float(input("Your Handsome Package : "))
 # print(c,type(c))
 
+# eval
+
 d = eval(input("Your Name/Age/Salary : "))
 print(d,type(d))
 

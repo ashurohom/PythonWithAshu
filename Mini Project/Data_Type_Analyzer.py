@@ -1,3 +1,4 @@
+# Datatype Analyzers
 from tkinter import *
 
 window = Tk()

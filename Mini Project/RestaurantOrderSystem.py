@@ -1,3 +1,4 @@
+#dictionari
 menu = {
     "Tea" : 15,
     "Vadapav" : 20,
@@ -56,6 +57,7 @@ else:
 
 
 '''
+
 Test Cases Passed : 
 
 Test Case 1: Valid Single Order
@@ -69,4 +71,5 @@ Test Case 8: Mixed Case Item Name
 Test Case 9: No Orders Placed
 Test Case 10: Handling Unexpected Input in Quantity
 Test Case 11: All Orders in One Attempt
+
 '''

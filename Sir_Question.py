@@ -19,7 +19,7 @@ print("Length Of", str1, "is : ", len(str1))
 
 
 
-# #2 WAP for accepting n from user check wether it is primt or not
+# #2 WAP for accepting n from user check wether it is prime or not
 
 # num = int(input("Enter Number To Check Prime or Not : "))
 

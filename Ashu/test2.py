@@ -17,7 +17,8 @@ dict = {
 num=int(input("Enter Number : "))
 if num>0 or num<=9:
     print(dict[num])
-
+else:
+    print(f'{num} is invalid Input')
 
 # WAP TO CHECK GIVEN   EMAIL  IS VALID?
 

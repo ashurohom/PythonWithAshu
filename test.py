@@ -38,11 +38,5 @@
 # else:
 #     print("Prime Number")    
 
-n=int(input("Enter Number : "))
+# Print Primt Number Between 1 to 25
 
-for i in range(2,n+1):
-    for j in range(2,i):
-        if i % j == 0:
-            break
-    else:
-        print(i,end=" ")

@@ -40,3 +40,4 @@
 
 # Print Primt Number Between 1 to 25
 
+n=25

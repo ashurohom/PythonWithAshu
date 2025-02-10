@@ -53,13 +53,51 @@ import re
 #         count+=1
 # print(count)        
 
-l=[]
-for i in range(1,51):
-    l.append(i*i)
-s=tuple(l)
-print(s)    
+# l=[]
+# for i in range(1,51):
+#     l.append(i*i)
+# s=tuple(l)
+# print(s)    
 
-print("***************")
+# print("***************")
 
-t = [i**2 for i in range(1,51)]
-print(t)
+# t = [i**2 for i in range(1,51)]
+# print(t)
+
+
+
+arr = [9,2,8,7,6,3,5,4,1]
+print(arr)
+arr.sort()
+
+list=[]
+
+for i in arr:
+    if i % 2 == 0:
+        print(i,end="")
+    else:
+        print(i,end="")
+print()
+print("--------------------------------------")     
+
+arr = [9, 2, 8, 7, 6, 3, 5, 4, 1]
+
+# Sort the list
+arr.sort()
+
+# Separate even and odd numbers
+even_numbers = [num for num in arr if num % 2 == 0]
+odd_numbers = [num for num in arr if num % 2 != 0]
+
+# Arrange in the desired sequence
+result = []
+max_len = max(len(even_numbers), len(odd_numbers))
+
+for i in range(max_len):
+    if i < len(even_numbers):
+        result.append(even_numbers[i])
+    if i < len(odd_numbers):
+        result.append(odd_numbers[i])
+
+# Print the result
+print(result)

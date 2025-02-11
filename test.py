@@ -49,7 +49,7 @@ for i in range(2,n+1):
     else:
         print(i,end=" ")
         count+=1
-print(count)        
+print("\nTotal Print Number : ",count)        
 
 
 

@@ -65,6 +65,15 @@
 # Print the last second or highest second number from the list
 
 list = [1,2,3,4,5,6,7,8,9,10]
+list1 = [51,10,78,20,42,30,88]
+number=list1[0]
 
-for i in list:
-    print(i,end=" ")
+for i in list1:
+    if i > number:
+        number=i
+
+print(number)       
+
+
+ 
+    

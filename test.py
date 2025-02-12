@@ -76,4 +76,11 @@ print(f"Highest Number : {number}")
 
 
  
+list2 = [25,87,33,55,15,100]
+lowestNum = list2[0]
+
+for j in list2:
+    if j < lowestNum:
+        lowestNum=j
+print(f"Lowest Number : {lowestNum}")        
     

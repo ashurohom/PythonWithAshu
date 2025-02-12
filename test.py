@@ -48,6 +48,7 @@ for i in range(2,n+1):
 
 if count >2:
     print("Not Prime Number")
-
+else:
+    print("Primt Number")
         
         

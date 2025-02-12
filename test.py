@@ -40,7 +40,7 @@
 
 # Print Prime Number Between 1 to 100
 
-n=12
+n=11
 count=0
 if n % 2 == 0:
     count+=n
@@ -50,3 +50,11 @@ if count > 2:
 else:
     print("Prime Number")        
         
+
+
+for i in range(2,26):
+    for j in range(2,i):
+        if i%j == 0:
+            break;
+    else:
+        print(i,end=" ")        

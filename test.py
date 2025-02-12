@@ -76,11 +76,18 @@ print(f"Highest Number : {number}")
 
 
  
-list2 = [25,87,33,55,15,100]
+list2 = [25,87,33,10,55,15,100,20]
 lowestNum = list2[0]
+secondNum = list2[0]
 
 for j in list2:
     if j < lowestNum:
         lowestNum=j
+
+for j in list2:
+    if j > lowestNum and (secondNum == lowestNum or j < secondNum):
+        secondNum = j
+
 print(f"Lowest Number : {lowestNum}")        
+print(f"Second Number : {secondNum}")        
     

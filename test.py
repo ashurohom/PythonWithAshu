@@ -40,21 +40,31 @@
 
 # Print Prime Number Between 1 to 100
 
-n=11
-count=0
-if n % 2 == 0:
-    count+=n
+# n=11
+# count=0
+# if n % 2 == 0:
+#     count+=n
 
-if count > 2:
-    print("Not Prime Number")    
-else:
-    print("Prime Number")        
+# if count > 2:
+#     print("Not Prime Number")    
+# else:
+#     print("Prime Number")        
         
 
 
-for i in range(2,26):
-    for j in range(2,i):
-        if i%j == 0:
-            break;
-    else:
-        print(i,end=" ")        
+# for i in range(2,26):
+#     for j in range(2,i):
+#         if i%j == 0:
+#             break;
+#     else:
+#         print(i,end=" ")        
+
+
+
+
+# Print the last second or highest second number from the list
+
+list = [1,2,3,4,5,6,7,8,9,10]
+
+for i in list:
+    print(i,end=" ")

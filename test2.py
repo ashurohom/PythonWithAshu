@@ -9,6 +9,7 @@ for i in list:
         lowestNum=i
 
 for i in list:
-    if i > secondLowest and (secondLowest == lowestNum or i < secondLowest): 
+    if i > lowestNum and (secondLowest == lowestNum or i < secondLowest): 
         secondLowest=i
 print(lowestNum)        
+print(secondLowest)

@@ -19,3 +19,11 @@
 # s = Stud();
 # print(s.name)
 # print(s.RollNo)
+
+# print("----------------------------")
+# class Person:
+#     def __init__(self,name):
+#         self.name=name
+
+# p1 = Person('Ashu')        
+# print(p1.name)

@@ -50,3 +50,10 @@
 #     print("Not Prime Number")    
 # else:
 #     print("Prime Number")
+
+# for i in range(2,26):
+#     for j in range(2,i):
+#         if i%j == 0:
+#             break;
+#     else:
+#         print(i,end=" ")  

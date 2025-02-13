@@ -57,3 +57,16 @@
 #             break;
 #     else:
 #         print(i,end=" ")  
+
+
+# Print the last second or highest second number from the list
+
+list = [1,2,3,4,5,6,7,8,9,10]
+list1 = [51,10,78,20,88,42,30]
+number=list1[0]
+
+for i in list1:
+    if i > number:
+        number=i
+
+print(f"Highest Number : {number}")  

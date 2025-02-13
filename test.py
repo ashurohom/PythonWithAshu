@@ -16,11 +16,29 @@
 # print("Second High Num : ",secondHigh)    
 
 
-# Print the factorial of given number
+# # Print the factorial of given number
 
-num=int(input("Enter Number For Factorial : "))
-fact=1
+# num=int(input("Enter Number For Factorial : "))
+# fact=1
 
-for i in range(1,num+1):
-    fact*=i
-print(f'{num}! = {fact}')    
+# for i in range(1,num+1):
+#     fact*=i
+# print(f'{num}! = {fact}')    
+
+
+
+# Armstrong Number
+
+number = 153
+
+digit = [int(d) for d in str(number)]
+l=len(digit)
+
+arm = sum(d ** l for d in digit)
+
+if arm == number:
+    print(f'{number} Is Armstrong Number')
+else:
+    print(f'{number} Is Not Armstrong Number')
+    
+    

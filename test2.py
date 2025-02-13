@@ -34,3 +34,19 @@ for i in list2:
 print(f"highest Number : {highestNum}")        
 print(f"Second High : {secondHigh}")
 
+
+
+
+
+# Print the factorial of given number
+
+num=int(input("Enter Number For Factorial : "))
+fact=1
+
+for i in range(1,num+1):
+    fact*=i
+print(f'{num}! = {fact}')    
+
+
+
+

@@ -37,3 +37,16 @@
 #     print("Not Prime Number")    
 # else:
 #     print("Prime Number")  
+
+
+# Print Prime Number Between 1 to 100
+
+# n=11
+# count=0
+# if n % 2 == 0:
+#     count+=n
+
+# if count > 2:
+#     print("Not Prime Number")    
+# else:
+#     print("Prime Number")

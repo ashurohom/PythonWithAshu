@@ -1,23 +1,26 @@
-# find given number is prime or not
+# Print highest and second highest number from the list
 
-# num = int(input("Enter Number : "))    
+# list = [20,98,24,36,75,88,12,45]
+# highNum = list[0]
+# secondHigh = list[0]
 
-# if num > 1:
-#     for i in range(2,num):
-#         if num % i == 0:
-#             print(f'{num} is not prime number')
-#             break
-#     else:
-#         print(f'{num} is Prime number')        
-# else:
-#     print(f'{num} is not prime number')
+# for i in list:
+#     if i > highNum:
+#         highNum=i
+
+# for i in list:
+#     if i < highNum and(highNum == secondHigh or i > secondHigh):
+#         secondHigh=i
+
+# print("Highest Num : ",highNum)    
+# print("Second High Num : ",secondHigh)    
 
 
-# Print prime number between 1 to 150
+# Print the factorial of given number
 
-for i in range(2,150):
-    for j in range(2,i):
-        if i % j == 0:
-            break
-    else:
-        print(i,end=" ")    
+num=int(input("Enter Number For Factorial : "))
+fact=1
+
+for i in range(1,num+1):
+    fact*=i
+print(f'{num}! = {fact}')    

@@ -28,37 +28,27 @@
 # p1 = Person('Ashu')        
 # print(p1.name)
 
-num = int(input("Enter Number : "))    
+num=103
 
 if num > 1:
     for i in range(2,num):
         if num % i == 0:
-            print(f'{num} is not prime number')
+            print(f"{num} Is Not Prime Number")
             break
     else:
-        print(f'{num} is Prime number')        
+        print(f"{num} Is Prime Number")
 else:
-    print(f'{num} is not prime number') 
+    print(f"{num} Is Not Prime Number")
 
 
 # Print Prime Number Between 1 to 100
 
-# n=11
-# count=0
-# if n % 2 == 0:
-#     count+=n
-
-# if count > 2:
-#     print("Not Prime Number")    
-# else:
-#     print("Prime Number")
-
-# for i in range(2,26):
+# for i in range(2,150):
 #     for j in range(2,i):
-#         if i%j == 0:
-#             break;
+#         if i % j == 0:
+#             break
 #     else:
-#         print(i,end=" ")  
+#         print(i,end=" ")    
 
 
 # Print the last second or highest second number from the list

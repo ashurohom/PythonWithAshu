@@ -27,3 +27,13 @@
 
 # p1 = Person('Ashu')        
 # print(p1.name)
+
+# num=int(input("Enter Number : "))
+# count=0
+# if num % 2 == 0:
+#     count+=num
+
+# if count > 2:
+#     print("Not Prime Number")    
+# else:
+#     print("Prime Number")  

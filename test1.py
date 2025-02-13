@@ -28,15 +28,17 @@
 # p1 = Person('Ashu')        
 # print(p1.name)
 
-# num=int(input("Enter Number : "))
-# count=0
-# if num % 2 == 0:
-#     count+=num
+num = int(input("Enter Number : "))    
 
-# if count > 2:
-#     print("Not Prime Number")    
-# else:
-#     print("Prime Number")  
+if num > 1:
+    for i in range(2,num):
+        if num % i == 0:
+            print(f'{num} is not prime number')
+            break
+    else:
+        print(f'{num} is Prime number')        
+else:
+    print(f'{num} is not prime number') 
 
 
 # Print Prime Number Between 1 to 100

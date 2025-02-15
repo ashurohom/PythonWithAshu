@@ -129,5 +129,9 @@ dict = {
     9 : "Nine",
 }
 
-num = int(input("Enter Number : "))
-print(f'{num} : {dict[num]}')
+# num = int(input("Enter Number : "))
+# print(f'{num} : {dict[num]}')
+
+num =input("Enter Number : ")
+s = " ".join(dict[int(digit)] for digit in num)
+print(f'{num} : {s}')

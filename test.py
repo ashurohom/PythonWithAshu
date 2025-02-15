@@ -27,6 +27,6 @@ dict = {
 # print(f'{num} : {dict[num]}')
 
 num =input("Enter Number : ")
-output = " ".join(dict[int(digit)] for digit in num)
-print(f'{num} : {output}')
+s = " ".join(dict[int(digit)] for digit in num)
+print(f'{num} : {s}')
 

@@ -50,3 +50,18 @@ print(f'{num}! = {fact}')
 
 
 
+# Armstrong Number
+
+number = 153
+
+digit = [int(d) for d in str(number)]
+l=len(digit)
+
+arm = sum(d ** l for d in digit)
+
+if arm == number:
+    print(f'{number} Is Armstrong Number')
+else:
+    print(f'{number} Is Not Armstrong Number')
+
+

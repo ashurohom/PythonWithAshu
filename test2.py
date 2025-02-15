@@ -65,3 +65,69 @@ else:
     print(f'{number} Is Not Armstrong Number')
 
 
+# Length Of String
+
+str = "Ashitosh"
+
+l =len(str)
+print(f'Length Of {str} Is : {l}') 
+
+count=0
+for i in str:
+    count+=1
+print(f'Length Of {str} Is : {count}') 
+
+
+
+#8 WAP For Print Fibonacci Series
+
+a=0
+b=1
+series = []
+series.append(a)
+series.append(b)
+
+for i in range(1,11):
+    c=a+b
+    series.append(c)
+
+    a=b
+    b=c
+
+print(series) 
+
+
+#9 Swap Two Number With or Without Third Variable
+
+a=10
+b=20
+
+# c=a
+# a=b
+# b=c
+# print(a,b)   
+
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+
+
+
+#10 Convert Number into its Corresponding String [1:one]
+
+dict = {
+    0 : "Zero",
+    1 : "One",
+    2 : "Two",
+    3 : "Three",
+    4 : "Four",
+    5 : "Five",
+    6 : "Six",
+    7 : "Seven",
+    8 : "Eight",
+    9 : "Nine",
+}
+
+num = int(input("Enter Number : "))
+print(f'{num} : {dict[num]}')
